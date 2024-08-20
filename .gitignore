@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+#custom
+mysite/polls/migrations/
+
 # Distribution / packaging
 .Python
 build/
@@ -58,7 +61,7 @@ cover/
 # Django stuff:
 *.log
 local_settings.py
-db.sqlite3
+mysite/db.sqlite3
 db.sqlite3-journal
 
 # Flask stuff:
